@@ -1,0 +1,14 @@
+Utiliser jdbc:h2:mem:test dans JDBC URL
+
+Question 1 :
+Quelle technique de programmation la librairie Lombok implémente pour ajouter du contenu à votre projet ?
+    - Genère du code JAVA pendant la compilation grâce aux annotations.
+
+Question 2 :
+Stratégie de Spring Boot pour fournir une implémentation de IEtudiantRepository à EtudiantServiceImpl
+    - Spring voit que l'interface IEtudiantRepository étend JpaRepository et donc crée automatiquement une implémentation pour elle, l'enregistre comme bean, puis l'injecte dans EtudiantServiceImpl.
+    - Pas besoin d'écrire la classe repository toi-même.
+
+Question 3 :
+Bien-fondé de l’utilisation des interfaces
+    - Decouplage, testabilité, maintenance/evolution, lisibilité, extensibilité
