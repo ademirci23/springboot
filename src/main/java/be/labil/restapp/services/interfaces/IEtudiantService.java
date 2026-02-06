@@ -7,7 +7,7 @@ import java.util.Set;
 
 public interface IEtudiantService {
 
-    Etudiant insert(Etudiant etudiant);
+    EtudiantDto create(EtudiantDto etudiantDto);
 
     Set<EtudiantDto> list();
 

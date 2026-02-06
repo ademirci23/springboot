@@ -23,8 +23,10 @@ public class EtudiantServiceImpl implements IEtudiantService {
     private final IEtudiantMapper iEtudiantMapper;
 
     @Override
-    public Etudiant insert(Etudiant etudiant) {
-        return iEtudiantRepository.save(etudiant);
+    public EtudiantDto create(EtudiantDto dto) {
+        Etudiant entity = iEtudiantMapper.toEntity(dto);
+        Etudiant saved = iEtudiantRepository.save(entity);
+        return iEtudiantMapper.toDto(saved);
     }
 
     @Override

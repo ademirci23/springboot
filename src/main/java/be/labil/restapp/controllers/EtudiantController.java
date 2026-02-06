@@ -23,8 +23,8 @@ public class EtudiantController {
     private final IEtudiantService iEtudiantService;
 
     @PostMapping(value = "/create", produces = "application/json")
-    public Etudiant create(@RequestBody Etudiant etudiant) {
-        return iEtudiantService.insert(etudiant);
+    public EtudiantDto create(@RequestBody EtudiantDto etudiantDto) {
+        return iEtudiantService.create(etudiantDto);
     }
 
     @Operation(
