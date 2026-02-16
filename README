@@ -1,4 +1,44 @@
+<pre>
+  _               ____   ____          _____ _____ _______
+ | |        /\   |  _ \ / __ \        / ____|_   _|__   __|
+ | |       /  \  | |_) | |  | |______| |  __  | |    | |
+ | |      / /\ \ |  _ <| |  | |______| | |_ | | |    | |
+ | |____ / ____ \| |_) | |__| |      | |__| |_| |_   | |
+ |______/_/    \_\____/ \____/        \_____|_____|  |_|
+</pre>
+
+# Welcome!
+Laboratoire de prise en main de Git
+
+Ce laboratoire ouvre plusieurs perspective à savoir:
+
+* La collaboration à plusieurs sur un projet
+* La manipulation des historique des commits
+* Les pull requests
+
+
+[Pour tout autre préoccupation mon IA reste disponible](https://chat.openai.com)
+
+A bientôt 🥳
+
+
+> [!NOTE]
+http://localhost:8080/
+http://localhost:8080/h2-console/login.jsp?jsessionid=6cc2864ea3aec5a75e89acd67d5fac97
 Utiliser jdbc:h2:mem:test dans JDBC URL
+
+Avec Docker :
+http://localhost:81/
+URL JDBC : jdbc:h2:tcp://localhost:1521/restdb
+
+Example POST :
+http://localhost:8080/api/etudiant/create
+{
+  "matricule": "M9999",
+  "nom": "Dupont",
+  "prenom": "Dupont"
+}
+
 
 Question 1 :
 Quelle technique de programmation la librairie Lombok implémente pour ajouter du contenu à votre projet ?
@@ -12,3 +52,12 @@ Stratégie de Spring Boot pour fournir une implémentation de IEtudiantRepositor
 Question 3 :
 Bien-fondé de l’utilisation des interfaces
     - Decouplage, testabilité, maintenance/evolution, lisibilité, extensibilité
+
+
+## Contributeurs
+
+- Moi et moi seul pour l'instant 🤓
+
+
+© < Demirci Ayhan > Unamur, 2026
+
